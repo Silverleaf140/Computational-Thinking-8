@@ -41,11 +41,12 @@ print("Perfect! halfway there! lets go to question four! ~Enter to continue~ ")
 input("")
 
 
-answer == input("Do you A) like coding class or do you B) like P.E? ")
+answer == input("Do you A) like coding class or do you B) like P.E?")
 if answer == "A": 
     Indoor_points += 1
 elif answer == "B":
     Outdoor_points += 1
+
 
 print("Good job! ~Enter to continue~") 
 input("")
@@ -77,7 +78,7 @@ if answer == "A":
 elif answer == "B":
     Indoor_points += 1
 
-
+input("")
 print("Great! now lets see your results.")
 
 if Outdoor_points > Indoor_points:
