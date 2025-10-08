@@ -50,8 +50,12 @@ window.tracer(0)
  
  
 ######################################################################
-# https://en.wikipedia.org/wiki/Web_colors#Extended_colors
+# https://en.wikipedia.org/wiki/Web_colors#Extended_colors   <---- Color names
 # Section 2 - My coding space
+
+
+# Background set
+
 set_background("Jungle3")
  
 
@@ -83,7 +87,7 @@ message1.hideturtle()
 message2 = create_sprite("fish",-200,-250)
 message2.color("gold")
 message2.write("I love summer :D",font = ("Arial", 30, "underline", "bold"))
-message2.hideturtle()
+message2.hideturtle() 
  
  
 ######################################################################
