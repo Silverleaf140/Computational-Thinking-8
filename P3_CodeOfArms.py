@@ -15,7 +15,7 @@ def set_image(sprite, image_filename):
  
 def create_sprite(image_filename, x=0, y=0):
     sprite = turtle.Turtle()
-    set_image(sprite, image_filename)
+    set_image(sprite, image_filename) 
     sprite.penup()
     sprite.goto(x,y)
     window.update()
@@ -56,7 +56,7 @@ window.tracer(0)
 
 # Background set
 
-set_background("Jungle3")
+set_background("Beach")
  
 
  # Sprite background shapes
@@ -85,7 +85,7 @@ message1.hideturtle()
 # Prints a message
 
 message2 = create_sprite("fish",-200,-250)
-message2.color("gold")
+message2.color("magenta")
 message2.write("I love summer :D",font = ("Arial", 30, "underline", "bold"))
 message2.hideturtle() 
  
