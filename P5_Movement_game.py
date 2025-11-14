@@ -144,7 +144,7 @@ while True:
 	if s2.ycor() < -290:
 		Lives -= 1
 		s2.goto (random.randint(-350, 350),600)
-		
+
 	elif s3.ycor() < -290:
 		Lives -= 1	
 		s3.goto (random.randint(-350, 350),500)
@@ -163,6 +163,7 @@ while True:
 	# optional: end the game when Lives reaches 0
 	if Lives <= 0:
 		print("Game Over!")
+		print("You survived for", timer/10, "seconds.")
 		break 
 
 
